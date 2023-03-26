@@ -40,8 +40,8 @@ jobs:
         id: get-posts
         run: |
           rm results.txt
-          git config user.name [github_username]
-          git config user.email [github_email]
+          git config user.name githabis
+          git config user.email 0pxdotid1@gmail.com
           git fetch origin
           git reset --hard origin/master
           git pull
